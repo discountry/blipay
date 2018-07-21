@@ -9,6 +9,10 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>Blipay</title>
         <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+            wx.config(<?php echo $app->jssdk->buildConfig(array('scanQRCode'), true) ?>);
+        </script>
     </head>
     <body>
         <div id="root"></div>

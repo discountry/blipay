@@ -59,28 +59,27 @@ export default class Payment extends Component {
                 </div>
                 <WingBlank size="lg">
                 <Card>
-                <Card.Header
-                    title="2N2Ww3EPc9gC8hPycHn8rxZLjy1eEfsbw5y"
-                />
                 <Card.Body>
-                    <div>
-                        <img src={qrcode} alt="qrcode" style={{textAlign: 'center'}} />
+                    <div className="payment">
+                        <div className="address">2N2Ww3E Pc9gC8h PycHn8rx ZLjy1eE fsbw5y</div>
+                        <img src={qrcode} alt="qrcode" />
                     </div>
                 </Card.Body>
                 </Card>
                 </WingBlank>
                 <WhiteSpace size="lg" />
+                <p className="info">请将二维码展示给商家进行付款</p>
                 <Modal
                     visible={this.state.modal}
                     transparent
                     maskClosable={false}
                     onClose={this.onClose}
-                    title="Title"
+                    title="付款成功"
                     footer={[{ text: 'Ok', onPress: () => this.onClose() }]}
                     wrapProps={{ onTouchStart: this.onWrapTouchStart }}
                     >
                     <div style={{ height: 100, overflow: 'scroll' }}>
-                    10 BCH Payed!
+                    已向商家支付 10 BCH
                 </div>
                 </Modal>
             </div>

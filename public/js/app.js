@@ -33751,14 +33751,14 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var Step = __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["g" /* Steps */].Step;
+var Item = __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["e" /* List */].Item;
 
 var actionIcons = [{
-    icon: '',
+    icon: 'https://png.icons8.com/ios/80/ffffff/qr-code.png',
     text: '快捷付款',
     link: '/pay'
 }, {
-    icon: '',
+    icon: 'https://png.icons8.com/ios/80/ffffff/portrait-mode-scanning.png',
     text: '扫码收款',
     link: '/receive'
 }];
@@ -33789,7 +33789,7 @@ var Home = function (_Component) {
                     )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["i" /* WingBlank */],
+                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WingBlank */],
                     { size: 'lg' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["b" /* Card */],
@@ -33798,9 +33798,18 @@ var Home = function (_Component) {
                             title: 'Satoshi',
                             thumb: 'https://png.icons8.com/ultraviolet/80/000000/user.png',
                             extra: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                'span',
+                                'div',
                                 null,
-                                '123'
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'p',
+                                    null,
+                                    '2N2Ww3E Pc9gC8hP'
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'p',
+                                    null,
+                                    'ycHn8rxZLj y1eEfsbw5y'
+                                )
                             )
                         }),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -33815,17 +33824,17 @@ var Home = function (_Component) {
                                     '\u4F59\u989D\uFF08BCH\uFF09'
                                 ),
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                    'p',
+                                    'h2',
                                     null,
-                                    '100.00'
+                                    '1112.09376662'
                                 )
                             )
                         )
                     )
                 ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WhiteSpace */], { size: 'lg' }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["g" /* WhiteSpace */], { size: 'lg' }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["i" /* WingBlank */],
+                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WingBlank */],
                     { size: 'lg' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["b" /* Card */],
@@ -33833,35 +33842,88 @@ var Home = function (_Component) {
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["b" /* Card */].Body,
                             null,
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["c" /* Grid */], { data: actionIcons, columnNum: 2, itemStyle: { height: '150px', background: 'rgba(0,0,0,.05)' }, renderItem: function renderItem(dataItem) {
-                                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["c" /* Flex */],
+                                { justify: 'center' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["c" /* Flex */].Item,
+                                    { style: { textAlign: 'center' } },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-                                        { to: dataItem.link, style: { padding: '12.5px' } },
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: dataItem.icon, style: { width: '15px', height: '15px' }, alt: '' }),
+                                        { to: '/pay' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'https://png.icons8.com/ios/80/ffffff/qr-code.png', style: { width: '36px', height: '36px', marginTop: '6px' }, alt: 'qrcode' }),
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             'div',
-                                            { style: { color: '#888', fontSize: '14px', marginTop: '12px' } },
+                                            { style: { color: '#fff', fontSize: '12px', marginTop: '12px' } },
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                 'span',
                                                 null,
-                                                dataItem.text
+                                                '\u5FEB\u6377\u4ED8\u6B3E'
                                             )
                                         )
-                                    );
-                                } })
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["c" /* Flex */].Item,
+                                    { style: { textAlign: 'center' } },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
+                                        { to: '/receive' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'https://png.icons8.com/ios/80/ffffff/portrait-mode-scanning.png', style: { width: '36px', height: '36px', marginTop: '6px' }, alt: 'scan' }),
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'div',
+                                            { style: { color: '#fff', fontSize: '12px', marginTop: '12px' } },
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'span',
+                                                null,
+                                                '\u626B\u7801\u6536\u6B3E'
+                                            )
+                                        )
+                                    )
+                                )
+                            )
                         )
                     )
                 ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WhiteSpace */], { size: 'lg' }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["g" /* WhiteSpace */], { size: 'lg' }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["i" /* WingBlank */],
+                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WingBlank */],
                     { size: 'lg' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["g" /* Steps */],
-                        { size: 'small', current: 1 },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Step, { title: 'Finished', description: 'This is description' }),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Step, { title: 'In Progress', description: 'This is description' }),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Step, { title: 'Waiting', description: 'This is description' })
+                        __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["e" /* List */],
+                        { renderHeader: function renderHeader() {
+                                return '交易记录';
+                            }, className: 'payment-list' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            Item,
+                            null,
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'span',
+                                null,
+                                '12:12'
+                            ),
+                            ' \u5411 XXX \u4ED8\u6B3E 0.5 BCH'
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            Item,
+                            null,
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'span',
+                                null,
+                                '11:55'
+                            ),
+                            ' \u6536\u5230\u6765\u81EA xx \u7684 55 BCH'
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            Item,
+                            null,
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'span',
+                                null,
+                                '11:55'
+                            ),
+                            ' \u5411 xxx \u4ED8\u6B3E 0.5 BCH'
+                        )
                     )
                 )
             );
@@ -33903,9 +33965,9 @@ var Home = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__drawer_index__ = __webpack_require__(307);
 /* unused harmony reexport Drawer */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__flex_index__ = __webpack_require__(39);
-/* unused harmony reexport Flex */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_12__flex_index__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__grid_index__ = __webpack_require__(312);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_13__grid_index__["a"]; });
+/* unused harmony reexport Grid */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__icon_index__ = __webpack_require__(15);
 /* unused harmony reexport Icon */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__image_picker_index__ = __webpack_require__(313);
@@ -33951,7 +34013,7 @@ var Home = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__stepper_index__ = __webpack_require__(407);
 /* unused harmony reexport Stepper */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__steps_index__ = __webpack_require__(411);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_36__steps_index__["a"]; });
+/* unused harmony reexport Steps */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__swipe_action_index__ = __webpack_require__(415);
 /* unused harmony reexport SwipeAction */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__switch_index__ = __webpack_require__(419);
@@ -33971,9 +34033,9 @@ var Home = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__view_index__ = __webpack_require__(145);
 /* unused harmony reexport View */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__white_space_index__ = __webpack_require__(434);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_46__white_space_index__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_46__white_space_index__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__wing_blank_index__ = __webpack_require__(435);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_47__wing_blank_index__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_47__wing_blank_index__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__locale_provider_index__ = __webpack_require__(436);
 /* unused harmony reexport LocaleProvider */
 // this file is not used if use https://github.com/ant-design/babel-plugin-import
@@ -42984,7 +43046,7 @@ var Grid = function (_React$Component) {
     return Grid;
 }(__WEBPACK_IMPORTED_MODULE_7_react___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["a"] = (Grid);
+/* unused harmony default export */ var _unused_webpack_default_export = (Grid);
 
 Grid.defaultProps = {
     data: [],
@@ -52728,7 +52790,7 @@ var Steps = function (_React$Component) {
     return Steps;
 }(__WEBPACK_IMPORTED_MODULE_5_react___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["a"] = (Steps);
+/* unused harmony default export */ var _unused_webpack_default_export = (Steps);
 
 Steps.Step = __WEBPACK_IMPORTED_MODULE_6_rmc_steps___default.a.Step;
 Steps.defaultProps = {
@@ -55844,26 +55906,33 @@ var Payment = function (_Component) {
                     )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["i" /* WingBlank */],
+                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WingBlank */],
                     { size: 'lg' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["b" /* Card */],
                         null,
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["b" /* Card */].Header, {
-                            title: '2N2Ww3EPc9gC8hPycHn8rxZLjy1eEfsbw5y'
-                        }),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["b" /* Card */].Body,
                             null,
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'div',
-                                null,
-                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_4__qrcode_png___default.a, alt: 'qrcode', style: { textAlign: 'center' } })
+                                { className: 'payment' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'div',
+                                    { className: 'address' },
+                                    '2N2Ww3E Pc9gC8h PycHn8rx ZLjy1eE fsbw5y'
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_4__qrcode_png___default.a, alt: 'qrcode' })
                             )
                         )
                     )
                 ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WhiteSpace */], { size: 'lg' }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["g" /* WhiteSpace */], { size: 'lg' }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { className: 'info' },
+                    '\u8BF7\u5C06\u4E8C\u7EF4\u7801\u5C55\u793A\u7ED9\u5546\u5BB6\u8FDB\u884C\u4ED8\u6B3E'
+                ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["f" /* Modal */],
                     {
@@ -55871,7 +55940,7 @@ var Payment = function (_Component) {
                         transparent: true,
                         maskClosable: false,
                         onClose: this.onClose,
-                        title: 'Title',
+                        title: '\u4ED8\u6B3E\u6210\u529F',
                         footer: [{ text: 'Ok', onPress: function onPress() {
                                 return _this2.onClose();
                             } }],
@@ -55880,7 +55949,7 @@ var Payment = function (_Component) {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
                         { style: { height: 100, overflow: 'scroll' } },
-                        '10 BCH Payed!'
+                        '\u5DF2\u5411\u5546\u5BB6\u652F\u4ED8 10 BCH'
                     )
                 )
             );
@@ -56509,8 +56578,21 @@ var Receive = function (_Component) {
     }
 
     _createClass(Receive, [{
+        key: 'handleOnClick',
+        value: function handleOnClick() {
+            wx.scanQRCode({
+                needResult: 0, // 默认为0，扫描结果由微信处理，1则直接返回扫描结果，
+                scanType: ["qrCode"], // 可以指定扫二维码还是一维码，默认二者都有
+                success: function success(res) {
+                    var result = res.resultStr; // 当needResult 为 1 时，扫码返回的结果
+                }
+            });
+        }
+    }, {
         key: 'render',
         value: function render() {
+            var _this2 = this;
+
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 { className: 'flex-container' },
@@ -56525,46 +56607,37 @@ var Receive = function (_Component) {
                     )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["i" /* WingBlank */],
+                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WingBlank */],
                     { size: 'lg' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["b" /* Card */],
                         null,
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["b" /* Card */].Header, {
-                            title: '2N2Ww3EPc9gC8hPycHn8rxZLjy1eEfsbw5y'
-                        }),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["b" /* Card */].Body,
                             null,
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["e" /* List */],
                                 { renderHeader: function renderHeader() {
-                                        return 'Customize the extra content in the right';
+                                        return '请输入收款金额';
                                     } },
-                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["d" /* InputItem */],
-                                    {
-                                        placeholder: '0.00',
-                                        extra: '\xA5'
-                                    },
-                                    '\u91D1\u989D'
-                                )
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["d" /* InputItem */], {
+                                    placeholder: '10.00',
+                                    extra: 'BCH'
+                                })
                             )
                         )
                     )
                 ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WhiteSpace */], { size: 'lg' }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_mobile__["g" /* WhiteSpace */], { size: 'lg' }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["i" /* WingBlank */],
+                    __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["h" /* WingBlank */],
                     { size: 'lg' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_1_antd_mobile__["a" /* Button */],
-                        null,
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            'a',
-                            { href: '/api/signal/123' },
-                            '\u626B\u7801\u6536\u6B3E'
-                        )
+                        { onClick: function onClick() {
+                                return _this2.handleOnClick();
+                            }, className: 'gradient' },
+                        '\u626B\u7801\u6536\u6B3E'
                     )
                 )
             );
@@ -56616,7 +56689,7 @@ exports = module.exports = __webpack_require__(441)(false);
 
 
 // module
-exports.push([module.i, "body {\n    margin: 0;\n    padding: 0;\n    font-family: sans-serif;\n    background: linear-gradient(-90deg, #262e3d, #4e546f);\n  }\n\n.page-title {\n    color: white;\n    display: flex;\n    align-items: center;\n    justify-content: left;\n    margin-left: 1rem;\n  }\n  \n  .page-title img {\n    width: 1.5rem;\n    height: 1.5rem;\n    margin-right: .5rem;\n  }\n  .am-card {\n      border: none !important;\n      color: white !important;\n      background: linear-gradient(#354063, #546085);\n  }\n\n  .am-card:not(.am-card-full)::before {\n      border: none !important;\n  }", ""]);
+exports.push([module.i, "body {\n    margin: 0;\n    padding: 0;\n    font-family: sans-serif;\n    background: linear-gradient(-90deg, #262e3d, #4e546f);\n  }\n\n.page-title {\n    color: white;\n    display: flex;\n    align-items: center;\n    justify-content: left;\n    margin-left: 1rem;\n  }\n  \n  .page-title img {\n    width: 1.5rem;\n    height: 1.5rem;\n    margin-right: .5rem;\n  }\n  .am-card {\n      border: none !important;\n      color: white !important;\n      background: linear-gradient(#354063, #546085);\n  }\n\n  .am-card:not(.am-card-full)::before, html:not([data-scale]) .am-button::before { \n      border: none !important;\n  }\n\n  html:not([data-scale]) .am-card-body::before {\n    background: #ddd0 !important;\n  }\n\n  .am-grid .am-flexbox {\n      background: transparent !important;\n  }\n\n  .am-card-header-content {\n      color: white !important;\n  }\n\n  .am-card-header-content img {\n      width: 3rem;\n      height: 3rem;\n  }\n  .am-card-header-extra {\n      font-size: 11px !important;\n      color: #b9b9b9fc !important;\n  }\n  .am-card-body {\n      color: #fff6 !important;\n  }\n  .am-card-body h2 {\n    color: #fff !important;\n}\n.am-list-header {\n    font-size: 18px !important;\n    color: #fff !important;\n}\n.am-list-item, .am-list-body {\n    background: transparent !important;\n}\n.am-list-content {\n    color: #fff !important;\n}\n.am-list-content span {\n    color: #999999 !important;\n}\n\n.address {\n    background: rgba(0,0,0,0.05);\n    border-radius: 4px;\n    margin: 18px;\n    padding: 12px;\n    font-size: 11px;\n    text-align: center;\n}\n\n.payment img {\n    margin: 0 auto;\n    width: 150px;\n    display: block;\n    padding-bottom: 24px;\n}\n\n.info {\n    font-size: 12px;\n    color: #C8C8C8;\n    letter-spacing: 0;\n    line-height: 12px;\n    text-align: center;\n}\n\n.gradient {\n    color: white !important;\n    background: linear-gradient(#43DAF8, #20B3EF);\n}", ""]);
 
 // exports
 
@@ -56625,7 +56698,7 @@ exports.push([module.i, "body {\n    margin: 0;\n    padding: 0;\n    font-famil
 /* 449 */
 /***/ (function(module, exports) {
 
-module.exports = "/images/qrcode.png?3cb1836cc31d359b4848a80790ac94fa";
+module.exports = "/images/qrcode.png?2ba2415f8e3d5ba5a4d2bb17baf75fe3";
 
 /***/ })
 /******/ ]);

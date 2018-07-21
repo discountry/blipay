@@ -33902,7 +33902,7 @@ var Home = function (_Component) {
                                 null,
                                 '12:12'
                             ),
-                            ' \u5411 XXX \u4ED8\u6B3E 10 BCH'
+                            ' \u5411 \u5434\u5FCC\u5BD2 \u4ED8\u6B3E 10 BCH'
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             Item,
@@ -33912,7 +33912,7 @@ var Home = function (_Component) {
                                 null,
                                 '11:55'
                             ),
-                            ' \u6536\u5230\u6765\u81EA xx \u7684 55 BCH'
+                            ' \u5411 \u6C5F\u5353\u5C14 \u4ED8\u6B3E 55 BCH'
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             Item,
@@ -33922,7 +33922,7 @@ var Home = function (_Component) {
                                 null,
                                 '10:36'
                             ),
-                            ' \u5411 xxx \u4ED8\u6B3E 0.5 BCH'
+                            ' \u5411 \u6768\u6D77\u5761 \u4ED8\u6B3E 25 BCH'
                         )
                     )
                 )

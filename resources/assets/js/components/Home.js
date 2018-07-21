@@ -64,7 +64,7 @@ export default class Home extends Component {
                 <List renderHeader={() => '交易记录'} className="payment-list">
                     <Item><span>12:12</span> 向 XXX 付款 10 BCH</Item>
                     <Item><span>11:55</span> 收到来自 xx 的 55 BCH</Item>
-                    <Item><span>11:55</span> 向 xxx 付款 0.5 BCH</Item>
+                    <Item><span>10:36</span> 向 xxx 付款 0.5 BCH</Item>
                 </List>
                 </WingBlank>
             </div>

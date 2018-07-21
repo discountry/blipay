@@ -33920,7 +33920,7 @@ var Home = function (_Component) {
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'span',
                                 null,
-                                '11:55'
+                                '10:36'
                             ),
                             ' \u5411 xxx \u4ED8\u6B3E 0.5 BCH'
                         )

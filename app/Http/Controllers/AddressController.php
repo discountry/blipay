@@ -24,5 +24,7 @@ class AddressController extends Controller
     public function signal(Request $request, $address) {
         $content = 'true';
         Storage::put('file.txt', $content);
+
+        return view('success', ['address' => $address]);
     }
 }

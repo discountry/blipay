@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { WingBlank, WhiteSpace, Card, Modal } from 'antd-mobile'
 import axios from 'axios'
+import {Howl, Howler} from 'howler'
 import './Home.css'
 import qrcode from './qrcode.png'
 
@@ -20,6 +21,12 @@ export default class Payment extends Component {
         this.setState({
           modal: true,
         });
+        const sound = new Howl({
+            src: ['success.mp3']
+          });
+          
+        // Play the sound.
+        sound.play();
       }
       onClose() {
         this.setState({

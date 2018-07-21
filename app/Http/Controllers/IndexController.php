@@ -9,8 +9,8 @@ use EasyWeChat;
 class IndexController extends Controller
 {
     public function index() {
-        // $app = '';
-        $app = EasyWeChat::officialAccount();
+        $app = '';
+        // $app = EasyWeChat::officialAccount();
         return view('welcome', ['app' => $app]);
     }
 }

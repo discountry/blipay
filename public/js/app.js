@@ -33902,7 +33902,7 @@ var Home = function (_Component) {
                                 null,
                                 '12:12'
                             ),
-                            ' \u5411 XXX \u4ED8\u6B3E 0.5 BCH'
+                            ' \u5411 XXX \u4ED8\u6B3E 10 BCH'
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             Item,

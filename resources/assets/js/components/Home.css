@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(-90deg, #262e3d, #4e546f);
+  }
+
+.page-title {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 1rem;
+  }
+  
+  .page-title img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .5rem;
+  }
+  .am-card {
+      border: none !important;
+      color: white !important;
+      background: linear-gradient(#354063, #546085);
+  }
+
+  .am-card:not(.am-card-full)::before {
+      border: none !important;
+  }

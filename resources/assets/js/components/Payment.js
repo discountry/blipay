@@ -18,15 +18,14 @@ export default class Payment extends Component {
         this.onWrapTouchStart = this.onWrapTouchStart.bind(this)
       }
       showModal() {
-        this.setState({
-          modal: true,
-        });
         const sound = new Howl({
             src: ['success.mp3']
           });
-          
         // Play the sound.
         sound.play();
+        this.setState({
+          modal: true,
+        });
       }
       onClose() {
         this.setState({

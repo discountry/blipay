@@ -55847,15 +55847,14 @@ var Payment = function (_Component) {
     _createClass(Payment, [{
         key: 'showModal',
         value: function showModal() {
-            this.setState({
-                modal: true
-            });
             var sound = new __WEBPACK_IMPORTED_MODULE_3_howler__["Howl"]({
                 src: ['success.mp3']
             });
-
             // Play the sound.
             sound.play();
+            this.setState({
+                modal: true
+            });
         }
     }, {
         key: 'onClose',
